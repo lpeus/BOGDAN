@@ -1,0 +1,245 @@
+
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>DALI</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="https://getbootstrap.com/docs/5.0/examples/carousel/carousel.css" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/blog/">
+
+<meta name="theme-color" content="#7952b3">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900&amp;display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="https://getbootstrap.com/docs/5.0/examples/blog/blog.css" rel="stylesheet">
+  <style type="text/css">.vab_dialog {
+  font-family: 'Barlow', sans-serif;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 15%;
+  margin: auto;
+  z-index: 2147483647;
+  border-radius: 4px;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -ms-flex-pack: start;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  max-width: 580px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 22px 7px rgba(0, 0, 0, 0.78);
+          box-shadow: 0 0 22px 7px rgba(0, 0, 0, 0.78);
+  padding: 30px 0; }
+  .vab_dialog .vab_no_entry {
+    width: 40px;
+    height: 40px; }
+  .vab_dialog .are_you_sure {
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #718191;
+    margin: 0 85px; }
+  .vab_dialog .detected {
+    margin: 30px 85px 0 85px;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #718191; }
+  .vab_dialog .do_you_want {
+    font-size: 21px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #718191;
+    margin: 40px 85px 0 85px; }
+  .vab_dialog .opt_out_msg {
+    margin: 20px 50px 0 50px;
+    font-size: 21px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #718191; }
+  .vab_dialog .vab_buttons {
+    margin-top: 50px;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+            align-items: center; }
+    .vab_dialog .vab_buttons .vab_button {
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      padding: 16px 24px;
+      border-radius: 5px;
+      display: -ms-flexbox;
+      display: -webkit-box;
+      display: flex;
+      -ms-flex-pack: center;
+      -webkit-box-pack: center;
+              justify-content: center;
+      -ms-flex-align: center;
+      -webkit-box-align: center;
+              align-items: center; }
+      .vab_dialog .vab_buttons .vab_button.cancel {
+        border: solid 1px #718191;
+        color: #718191;
+        margin-right: 20px; }
+      .vab_dialog .vab_buttons .vab_button.exit {
+        color: #f55a2e;
+        border: solid 1px #f55a2e;
+        margin-right: 20px; }
+      .vab_dialog .vab_buttons .vab_button.continue {
+        background-color: #8a95ff;
+        color: #ffffff; }
+</style>
+</head>
+  <body>
+    
+<div class="container">
+  <header class="blog-header py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-12 text-center">
+        <a class="blog-header-logo text-dark" href="#">LESYA_FOREVER</a>
+      </div>
+    </div>
+        <nav class="nav d-flex justify-content-center">
+      <a class="p-2 link-secondary" href="index.html">Main</a>
+      <a class="p-2 link-secondary" href="blog.html">Blog</a>
+      <a class="p-2 link-secondary" href="form.html">Form</a>
+    </nav>
+  </header>
+</div>
+
+<main>
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="img/image3.webp">
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>DALI</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container marketing">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">"Великий мастурбатор"</h2>
+        <p class="lead"> - картина, написанная Сальвадором Дали осенью 1929-го и до самой смерти художника находившаяся в его Театре-Музее в Фигерасе. После того, как Сальвадор Дали умер, завещав все свое состояние Испанскому государству, "Великий мастурбатор" уехал в Мадрид и выставляется сегодня в Центре искусств королевы Софии, где вы можете насладиться этим полотном вживую.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="img/image.jpg"/>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">"Лебеди, отражающиеся в слонах"</h2>
+        <p class="lead"> - картина, написанная Сальвадором Дали в 1937-ом. Этой работе суждено было стать одним из первых его холстов, выполненных в полном соответствии с "параноидально-критическим методом". Автором метода, разумеется, тоже является Сальвадор Дали.</p>
+      </div>
+       <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="img/image1.jpg"/>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">"Постоянство памяти"</h2>
+        <p class="lead"> - самая, пожалуй, знаменитая картина Сальвадора Дали, более известная под "народным" названием "Мягкие часы". Когда в голодном 1931-ом году художник написал это не впечатляющее размерами полотно (размеры холста - всего 24 Х 33 см) он, должно быть, даже не предполагал, что образ его "мягких часов" станет известен каждому жителю планеты Земля - в том числе, и бесконечно далеким от искусства людям.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="img/image2.jpg"/>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+
+
+  </div>
+
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017-2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+      
+  </body>
+</html>
