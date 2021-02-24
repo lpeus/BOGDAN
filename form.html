@@ -1,4 +1,4 @@
-
+﻿
 <!doctype html>
 <html lang="en">
   <head>
@@ -26,22 +26,6 @@
 <meta name="theme-color" content="#7952b3">
 
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
     
     <!-- Custom styles for this template -->
     <link href="https://getbootstrap.com/docs/5.0/examples/checkout/form-validation.css" rel="stylesheet">
@@ -49,135 +33,50 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900&amp;display=swap" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="https://getbootstrap.com/docs/5.0/examples/blog/blog.css" rel="stylesheet">
-  <style type="text/css">.vab_dialog {
-  font-family: 'Barlow', sans-serif;
-  position: fixed;
-  right: 0;
-  left: 0;
-  top: 15%;
-  margin: auto;
-  z-index: 2147483647;
-  border-radius: 4px;
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
-  -ms-flex-direction: column;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-direction: column;
-  -ms-flex-pack: start;
-  -webkit-box-pack: start;
-          justify-content: flex-start;
-  -ms-flex-align: center;
-  -webkit-box-align: center;
-          align-items: center;
-  max-width: 580px;
-  background-color: #ffffff;
-  -webkit-box-shadow: 0 0 22px 7px rgba(0, 0, 0, 0.78);
-          box-shadow: 0 0 22px 7px rgba(0, 0, 0, 0.78);
-  padding: 30px 0; }
-  .vab_dialog .vab_no_entry {
-    width: 40px;
-    height: 40px; }
-  .vab_dialog .are_you_sure {
-    font-size: 30px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #718191;
-    margin: 0 85px; }
-  .vab_dialog .detected {
-    margin: 30px 85px 0 85px;
-    font-size: 30px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #718191; }
-  .vab_dialog .do_you_want {
-    font-size: 21px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #718191;
-    margin: 40px 85px 0 85px; }
-  .vab_dialog .opt_out_msg {
-    margin: 20px 50px 0 50px;
-    font-size: 21px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #718191; }
-  .vab_dialog .vab_buttons {
-    margin-top: 50px;
-    display: -ms-flexbox;
-    display: -webkit-box;
-    display: flex;
-    -ms-flex-direction: row;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-            flex-direction: row;
-    -ms-flex-align: center;
-    -webkit-box-align: center;
-            align-items: center; }
-    .vab_dialog .vab_buttons .vab_button {
-      cursor: pointer;
-      font-size: 16px;
-      font-weight: 500;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: center;
-      padding: 16px 24px;
-      border-radius: 5px;
-      display: -ms-flexbox;
-      display: -webkit-box;
-      display: flex;
-      -ms-flex-pack: center;
-      -webkit-box-pack: center;
-              justify-content: center;
-      -ms-flex-align: center;
-      -webkit-box-align: center;
-              align-items: center; }
-      .vab_dialog .vab_buttons .vab_button.cancel {
-        border: solid 1px #718191;
-        color: #718191;
-        margin-right: 20px; }
-      .vab_dialog .vab_buttons .vab_button.exit {
-        color: #f55a2e;
-        border: solid 1px #f55a2e;
-        margin-right: 20px; }
-      .vab_dialog .vab_buttons .vab_button.continue {
-        background-color: #8a95ff;
-        color: #ffffff; }
-</style>
+      <script>
+          function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+          }
+
+          // Close the dropdown menu if the user clicks outside of it
+          window.onclick = function (event) {
+              if (!event.target.matches('.dropbtn')) {
+
+                  var dropdowns = document.getElementsByClassName("dropdown-content");
+                  var i;
+                  for (i = 0; i < dropdowns.length; i++) {
+                      var openDropdown = dropdowns[i];
+                      if (openDropdown.classList.contains('show')) {
+                          openDropdown.classList.remove('show');
+                      }
+                  }
+              }
+          }
+      </script>
+      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+      <link href="./css/style.css" rel="stylesheet" />
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 </head>
   <body class="bg-light">
     
 <div class="container">
     <header class="blog-header py-3">
-    <div class="row flex-nowrap justify-content-between align-items-center">
-      <div class="col-12 text-center">
-        <a class="blog-header-logo text-dark" href="#">LESYA_FOREVER</a>
-      </div>
-    </div>
-        <nav class="nav d-flex justify-content-center">
-      <a class="p-2 link-secondary" href="index.html">Main</a>
-      <a class="p-2 link-secondary" href="form.html">Form</a>
-    </nav>
-  </header>
+        <div class="row flex-nowrap justify-content-between align-items-center">
+            <div class="col-12 text-center">
+                <a class="blog-header-logo text-dark" href="#">LESYA_FOREVER</a>
+            </div>
+        </div>
+        <hr />
+        <div class="dropdown nav d-flex justify-content-center">
+            <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+            <div id="myDropdown" class="dropdown-content">
+
+                <a class="p-2 link-secondary" href="index.html">Main</a>
+                <a class="p-2 link-secondary" href="form.html">Form</a>
+            </div>
+        </div>
+    </header>
   <main>
     <div class="py-5 text-center">
       <h2>Checkout form</h2>
@@ -223,49 +122,6 @@
                 Please enter a valid email address for shipping updates.
               </div>
             </div>
-
-            <div class="col-12">
-              <label for="address" class="form-label">Address</label>
-              <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
-              <div class="invalid-feedback">
-                Please enter your shipping address.
-              </div>
-            </div>
-
-            <div class="col-12">
-              <label for="address2" class="form-label">Address 2 <span class="text-muted">(Optional)</span></label>
-              <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
-            </div>
-
-            <div class="col-md-5">
-              <label for="country" class="form-label">Country</label>
-              <select class="form-select" id="country" required>
-                <option value="">Choose...</option>
-                <option>United States</option>
-              </select>
-              <div class="invalid-feedback">
-                Please select a valid country.
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <label for="state" class="form-label">State</label>
-              <select class="form-select" id="state" required>
-                <option value="">Choose...</option>
-                <option>California</option>
-              </select>
-              <div class="invalid-feedback">
-                Please provide a valid state.
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <label for="zip" class="form-label">Zip</label>
-              <input type="text" class="form-control" id="zip" placeholder="" required>
-              <div class="invalid-feedback">
-                Zip code required.
-              </div>
-            </div>
           </div>
 
           <hr class="my-4">
@@ -281,23 +137,38 @@
           </div>
 
           <hr class="my-4">
+           
 
           <h4 class="mb-3">Payment</h4>
-
-          <div class="my-3">
-            <div class="form-check">
-              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
-              <label class="form-check-label" for="credit">Credit card</label>
+            <div class="row  align-items-center">
+                <div class="my-3 col-4">
+                    <div class="form-check">
+                        <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                        <label class="form-check-label" for="credit">Credit card</label>
+                    </div>
+                    <div class="form-check">
+                        <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+                        <label class="form-check-label" for="debit">Debit card</label>
+                    </div>
+                    <div class="form-check">
+                        <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                        <label class="form-check-label" for="paypal">PayPal</label>
+                    </div>
+                </div>
+                <div id="app" class="col-6">
+                    <div class="stats">
+                        <h3 class="stats__title">{{"Текущих задач: "+ tasks.length}}</h3>
+                    </div>
+                    <task @task_done="delete_task(index)" key="index" v-for="(data,index) in tasks" data="data"></task>
+                    <div class="add_task">
+                        <div class="add_task__input ">
+                            <input placeholder="Новая задача..." type="text" v-model="new_task.title">
+                            <textarea placeholder="Описание" type="text" v-model="new_task.desc"></textarea>
+                        </div>
+                        <button class="add_task__btn" @click="add_task" type="button">➕</button>
+                    </div>
+                </div>
             </div>
-            <div class="form-check">
-              <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
-              <label class="form-check-label" for="debit">Debit card</label>
-            </div>
-            <div class="form-check">
-              <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
-              <label class="form-check-label" for="paypal">PayPal</label>
-            </div>
-          </div>
 
           <div class="row gy-3">
             <div class="col-md-6">
@@ -353,8 +224,53 @@
 </div>
 
 
-    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
-      <script src="form-validation.js"></script>
+      <script>
+          Vue.component('task',{
+              props: ['data'],
+              methods: {
+                  task_done(){
+                      this.$emit('task_done')
+                  }
+              },
+          template:  `
+              <div class="task">
+                <div>
+                  <h3 class="task__title">{{data.title}}</h3>
+                  <p v-if="data.desc!=''" class="task__desc">{{data.desc}}</p>
+                </div>
+                <button class="task__done" @click="task_done()" type="button">✔️</button>
+              </div>
+          `
+          })
+
+          var vue = new Vue({
+              el: '#app',
+              data: {
+                  string: 'asdasda',
+                  new_task: {
+                      title: '',
+                      desc: ''
+                  },
+                  tasks : []
+              },
+              methods: {
+                  add_task(){
+                  if(this.new_task.title != ''){
+                      this.tasks.push({
+                          title: this.new_task.title,
+                          desc: this.new_task.desc
+                      });
+                      this.new_task.title='';
+                      this.new_task.desc='';
+                  }
+          },
+          delete_task(id){
+              this.tasks.splice(id,1);
+          }
+          }
+          })
+      </script>
+
   </body>
 </html>

@@ -1,0 +1,378 @@
+.vab_dialog {
+  font-family: 'Barlow', sans-serif;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 15%;
+  margin: auto;
+  z-index: 2147483647;
+  border-radius: 4px;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -ms-flex-pack: start;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  max-width: 580px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 22px 7px rgba(0, 0, 0, 0.78);
+          box-shadow: 0 0 22px 7px rgba(0, 0, 0, 0.78);
+  padding: 30px 0; }
+  .vab_dialog .vab_no_entry {
+    width: 40px;
+    height: 40px; }
+  .vab_dialog .are_you_sure {
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #718191;
+    margin: 0 85px; }
+  .vab_dialog .detected {
+    margin: 30px 85px 0 85px;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #718191; }
+  .vab_dialog .do_you_want {
+    font-size: 21px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #718191;
+    margin: 40px 85px 0 85px; }
+  .vab_dialog .opt_out_msg {
+    margin: 20px 50px 0 50px;
+    font-size: 21px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #718191; }
+  .vab_dialog .vab_buttons {
+    margin-top: 50px;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+            align-items: center; }
+    .vab_dialog .vab_buttons .vab_button {
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      padding: 16px 24px;
+      border-radius: 5px;
+      display: -ms-flexbox;
+      display: -webkit-box;
+      display: flex;
+      -ms-flex-pack: center;
+      -webkit-box-pack: center;
+              justify-content: center;
+      -ms-flex-align: center;
+      -webkit-box-align: center;
+              align-items: center; }
+      .vab_dialog .vab_buttons .vab_button.cancel {
+        border: solid 1px #718191;
+        color: #718191;
+        margin-right: 20px; }
+      .vab_dialog .vab_buttons .vab_button.exit {
+        color: #f55a2e;
+        border: solid 1px #f55a2e;
+        margin-right: 20px; }
+      .vab_dialog .vab_buttons .vab_button.continue {
+        background-color: #8a95ff;
+        color: #ffffff; }
+
+
+      .dropbtn {
+          background-color: #3498DB;
+          color: white;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+          cursor: pointer;
+      }
+
+          /* Dropdown button on hover & focus */
+          .dropbtn:hover, .dropbtn:focus {
+              background-color: #2980B9;
+          }
+
+      /* The container <div> - needed to position the dropdown content */
+      .dropdown {
+          position: relative;
+          display: inline-block;
+      }
+
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+      }
+
+          /* Links inside the dropdown */
+          .dropdown-content a {
+              color: black;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+          }
+
+              /* Change color of dropdown links on hover */
+              .dropdown-content a:hover {
+                  background-color: #ddd;
+              }
+
+      /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+      .show {
+          display: block;
+      }
+
+            .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .vab_dialog {
+  font-family: 'Barlow', sans-serif;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 15%;
+  margin: auto;
+  z-index: 2147483647;
+  border-radius: 4px;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -ms-flex-pack: start;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  max-width: 580px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 22px 7px rgba(0, 0, 0, 0.78);
+          box-shadow: 0 0 22px 7px rgba(0, 0, 0, 0.78);
+  padding: 30px 0; }
+  .vab_dialog .vab_no_entry {
+    width: 40px;
+    height: 40px; }
+  .vab_dialog .are_you_sure {
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #718191;
+    margin: 0 85px; }
+  .vab_dialog .detected {
+    margin: 30px 85px 0 85px;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #718191; }
+  .vab_dialog .do_you_want {
+    font-size: 21px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #718191;
+    margin: 40px 85px 0 85px; }
+  .vab_dialog .opt_out_msg {
+    margin: 20px 50px 0 50px;
+    font-size: 21px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #718191; }
+  .vab_dialog .vab_buttons {
+    margin-top: 50px;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+            align-items: center; }
+    .vab_dialog .vab_buttons .vab_button {
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      padding: 16px 24px;
+      border-radius: 5px;
+      display: -ms-flexbox;
+      display: -webkit-box;
+      display: flex;
+      -ms-flex-pack: center;
+      -webkit-box-pack: center;
+              justify-content: center;
+      -ms-flex-align: center;
+      -webkit-box-align: center;
+              align-items: center; }
+      .vab_dialog .vab_buttons .vab_button.cancel {
+        border: solid 1px #718191;
+        color: #718191;
+        margin-right: 20px; }
+      .vab_dialog .vab_buttons .vab_button.exit {
+        color: #f55a2e;
+        border: solid 1px #f55a2e;
+        margin-right: 20px; }
+      .vab_dialog .vab_buttons .vab_button.continue {
+        background-color: #8a95ff;
+        color: #ffffff; }
+
+
+      :root {
+  --main: #2F4858;
+  --white: #fff;
+}
+* {
+  padding: 0;
+  margin: 0;
+  transition: all 0.3s;
+}
+#app{
+  width: 320px;
+  box-shadow: 0 3px 20px #00000023;
+  font-family: 'Gilroy', sans-serif;
+  padding: 10px;
+  margin: 20px 0 0 20px;
+  color: var(--main);
+}
+.stats {
+  margin: 0px;
+}
+.stats__title {
+  margin: -10px -10px 10px -10px;
+  padding: 10px;
+  background-color: var(--main);
+  color: var(--white);
+  font-weight: 500;
+}
+.task {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: -10px -10px 10px -10px;
+  padding: 10px;
+  max-width: 100%;
+}
+.task:hover {
+  background-color: #2f485811;
+}
+.task__title {
+  font-size: 18px;
+}
+.task__desc {
+  font-weight: 500;
+  font-size: 16px;
+}
+.task__done {
+  height: 30px;
+  width: 30px !important;
+  border: none;
+  background-color: unset;
+}
+.task__done:hover {
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #9ee493bb;
+}
+.add_task {
+  display: flex;
+  
+}
+.add_task__input {
+  width: 80%;
+}
+.add_task__input input, textarea {
+  width: 100%;
+  max-width: 100%;
+  padding: 5px 0 5px 5px;
+  font-family: 'Gilroy',sans-serif;
+  border: 2px solid #2f485811;
+  border-radius: 4px;
+}
+.add_task__input input {
+  margin-bottom: 5px;
+}
+.add_task__btn {
+  width: 20%;
+  border: none;
+  margin-left: 20px;
+  background-color: unset;
+}
+.add_task__btn:hover {
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #2f485811;
+}
