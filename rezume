@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="twitter:card" content="summary_large_image"><meta name="description" content="togliatti.hh.ru — сервис, который помогает найти работу и подобрать персонал в Тольятти более 19 лет! Создавайте резюме и откликайтесь на вакансии. Набирайте сотрудников и публикуйте вакансии."><meta name="keywords" content="работа, вакансии, работа, поиск вакансий, резюме, работы, работу, работ, ищу работу, поиск"><meta property="og:image" content="https://i.hh.ru/logos/openGraph/hh.ru.png?v=3"><meta property="og:image:width" content="600"><meta property="og:image:height" content="315"><meta property="og:title" content=""><meta property="og:description" content="togliatti.hh.ru — сервис, который помогает найти работу и подобрать персонал в Тольятти более 19 лет! Создавайте резюме и откликайтесь на вакансии. Набирайте сотрудников и публикуйте вакансии."><script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/linkid.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-44H5WGZ123&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" type="text/javascript" id="topmailru-code" src="https://top-fwz1.mail.ru/js/code.js"></script><script type="text/javascript" async="" src="https://affilate.hh.ru/api/tracker/sdk.js"></script><script type="text/javascript" async="" src="https://mc.yandex.ru/metrika/watch.js"></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script>
+function ownKeys(e,t){var n=Object.keys(e);if(Object.getOwnPropertySymbols){var o=Object.getOwnPropertySymbols(e);t&&(o=o.filter((function(t){return Object.getOwnPropertyDescriptor(e,t).enumerable}))),n.push.apply(n,o)}return n}function _objectSpread(e){for(var t=1;t<arguments.length;t++){var n=null!=arguments[t]?arguments[t]:{};t%2?ownKeys(Object(n),!0).forEach((function(t){_defineProperty(e,t,n[t])})):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(n)):ownKeys(Object(n)).forEach((function(t){Object.defineProperty(e,t,Object.getOwnPropertyDescriptor(n,t))}))}return e}function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}!function(){var e=[];/(ipad|ipod|iphone)/i.test(navigator.userAgent.toLowerCase())&&e.push("ios"),e.length&&(document.getElementsByTagName("html")[0].className+=" ".concat(e.join(" ")))}(),function(){var e={ie_mob:{matches:/iemobile\/(\d+)/,minVersion:11},trident:{matches:/trident\/(\d+)\./,minVersion:7},ie:{matches:/msie (\d+)\./,minVersion:11},edge:{matches:/edge\/(\d+)/,minVersion:12},firefox:{matches:/firefox\/(\d+)\./,minVersion:40},operaMobile:{matches:/opera\/(\d+).+opera mobi/,minVersion:12},win_safari:{matches:/windows nt.+ version\/(\d+)\.[\d.]+ safari/,minVersion:9},ios_saf:{matches:/cpu(?: iphone)? os (\d+)_[\d_]+ like mac os x/,minVersion:8,exclude:function(e){return-1!==e.indexOf("yabrowser")}},android:{matches:/android (\d+\.\d)/,minVersion:4.1,exclude:function(e){var t=e.match(/webkit\/(\d+(?:\.\d+)?)/)[1];return parseFloat(t)>537}},chrome:{matches:/chrome\/(\d+)\./,minVersion:44},safari:{matches:/macintosh;.+ version\/(\d+)\.[\d.]+ safari/,minVersion:9},opera:{matches:/presto\/.+ version\/(\d+)/,minVersion:999},operaMini:{matches:/opera mini\/(\d+)/,minVersion:999}};window.bloko=window.bloko||{},window.bloko.getUserAgentDetails=function(t,n){var o=t.toLowerCase(),r={isSupported:!0,browser:null,version:null},i=function(e,t){return t?Object.keys(e).map((function(n){var o=e[n];return _defineProperty({},n,_objectSpread({},o,{minVersion:t[n]||o.minVersion}))})).reduce((function(e,t){return _objectSpread({},e,{},t)}),{}):e}(e,n);for(var a in i){var c=o.match(i[a].matches);if(c){var s=parseFloat(c[1]);if(!isNaN(s)){if(i[a].exclude&&i[a].exclude(o))continue;r.browser=a,r.version=s,s<i[a].minVersion&&(r.isSupported=!1);break}}}return r}}(),function(){var e=function(){var e=document.getElementsByTagName("head")[0],t=!function(){var e="lstest";try{return localStorage.setItem(e,e),localStorage.removeItem(e),!0}catch(e){return!1}}();function n(t){var n=document.createElement("style");n.textContent=t,e.appendChild(n)}return{loadCSS:function(e){if(!t){var o=!1,r=!1;try{o="1.0"===window.localStorage.getItem("BlokoFontsVersion"),r=window.localStorage.getItem("BlokoFonts")}catch(e){return}o&&r?n(r):function(e,t){var n=new window.XMLHttpRequest;n.open("GET",e,!0),n.onload=function(){t(n.responseText)},n.send()}(e,(function(e){try{window.localStorage.setItem("BlokoFonts",e),window.localStorage.setItem("BlokoFontsVersion","1.0")}catch(e){}finally{n(e)}}))}}}}();window.bloko&&window.bloko.fontUrl&&e.loadCSS(window.bloko.fontUrl)}(),window.requestIdleCallback=window.requestIdleCallback||function(e){return setTimeout((function(){var t=Date.now();e({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-t))}})}),1)},window.cancelIdleCallback=window.cancelIdleCallback||function(e){clearTimeout(e)},function(){var e,t,n;if(document.cookie="GMT=".concat((new Date).getTimezoneOffset()/60*-1,";path=/"),window.jsxComponents=window.jsxComponents||{},e=window.console=window.console||{},t=function(){},["assert","count","debug","dir","dirxml","error","exception","group","groupCollapsed","groupEnd","info","log","markTimeline","profile","profileEnd","time","timeEnd","trace","warn"].forEach((function(n){e[n]=e[n]||t})),!("autofocus"in document.createElement("input"))){n=function(){window.setTimeout((function(){var e=document.querySelectorAll("[autofocus]");e.length&&!window.location.hash&&e[e.length-1].focus()}),10)},document.addEventListener?document.addEventListener("DOMContentLoaded",n,!1):document.attachEvent&&document.attachEvent("onreadystatechange",(function(){"complete"===document.readyState&&n()}))}if(window.requestAnimationFrame||(window.requestAnimationFrame=window.webkitRequestAnimationFrame||function(e){window.setTimeout(e,1e3/60)}),Element.prototype.matches||(Element.prototype.matches=Element.prototype.msMatchesSelector||Element.prototype.webkitMatchesSelector),!Element.prototype.closest){Element.prototype.closest=function(e){if(!document.documentElement.contains(this))return null;if(this.matches(e))return this;for(var t=this.parentElement||this.parentNode;null!==t&&1===t.nodeType;){if(t.matches(e))return t;t=t.parentElement||t.parentNode}return null}}if("function"!=typeof window.CustomEvent){var o=function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},n=t.bubbles,o=void 0!==n&&n,r=t.cancelable,i=void 0!==r&&r,a=t.detail,c=void 0===a?void 0:a,s=document.createEvent("CustomEvent");return s.initCustomEvent(e,o,i,c),s};o.prototype=window.Event.prototype,window.CustomEvent=o}var r,i;(function(){if(!DOMTokenList.prototype.toggle)return!0;var e=document.createElement("p");return e.classList.toggle("testClass",!1),e.classList.contains("testClass")})()&&(DOMTokenList.prototype.toggle=function(e,t){return(void 0===t?!this.contains(e):t)?(this.add(e),!0):(this.remove(e),!1)}),[Element.prototype,Document.prototype,DocumentFragment.prototype].forEach((function(e){e.hasOwnProperty("prepend")||Object.defineProperty(e,"prepend",{configurable:!0,enumerable:!0,writable:!0,value:function(){for(var e=document.createDocumentFragment(),t=arguments.length,n=new Array(t),o=0;o<t;o++)n[o]=arguments[o];n.forEach((function(t){var n=t instanceof Node;e.appendChild(n?t:document.createTextNode(String(t)))})),this.insertBefore(e,this.firstChild)}})})),["classList","children","contains","dataset","getElementsByClassName"].forEach((function(e){if(e in HTMLElement.prototype){var t="dataset"===e?SVGElement.prototype:Element.prototype;if(!(e in t)){var n=Object.getOwnPropertyDescriptor(HTMLElement.prototype,e);Object.defineProperty(t,e,n)}}})),function(){if("performance"in window==!1&&(window.performance={}),"now"in window.performance==!1){var e,t=Date.now();(null===(e=performance.timing)||void 0===e?void 0:e.navigationStart)&&(t=performance.timing.navigationStart),window.performance.now=function(){return Date.now()-t}}}(),r=[window.Element,window.CharacterData,window.DocumentType],i=[],r.forEach((function(e){e&&i.push(e.prototype)})),function(e){e.forEach((function(e){e.hasOwnProperty("remove")||Object.defineProperty(e,"remove",{configurable:!0,enumerable:!0,writable:!0,value:function(){this.parentNode.removeChild(this)}})}))}(i),function(){var e=document.createElement("_");if(e.classList.add("c1","c2"),!e.classList.contains("c2")){var t=function(e){var t=DOMTokenList.prototype[e];DOMTokenList.prototype[e]=function(){for(var e=this,n=arguments.length,o=new Array(n),r=0;r<n;r++)o[r]=arguments[r];o.forEach((function(n){return t.call(e,n)}))}};t("add"),t("remove")}}(),window.RadioNodeList||HTMLCollection.prototype.value||Object.defineProperty(HTMLCollection.prototype,"value",{configurable:!0,get:function(){for(var e=this.length,t=0;t<e;t++)if(this[t].checked)return this[t].getAttribute("value")?this[t].value:"on";return""},set:function(e){for(var t=this.length,n=0;n<t;n++)if(this[n].value===e){this[n].checked=!0;break}}})}(),function(e,t){var n,o,r,i=[],a={passive:!0,capture:!0},c=new Date;function s(e,i){n||(n=i,o=e,r=new Date,d(t),u())}function u(){o>=0&&o<r-c&&(i.forEach((function(e){e(o,n)})),i=[])}function l(n){try{if(n.cancelable){var o=(n.timeStamp>1e12?new Date:performance.now())-n.timeStamp;"pointerdown"==n.type?function(n,o){function r(){s(n,o),c()}function i(){c()}function c(){t("pointerup",r,a),t("pointercancel",i,a)}e("pointerup",r,a),e("pointercancel",i,a)}(o,n):s(o,n)}}catch(e){}}function d(e){["click","mousedown","keydown","touchstart","pointerdown"].forEach((function(t){e(t,l,a)}))}d(e),self.perfMetrics=self.perfMetrics||{},self.perfMetrics.onFirstInputDelay=function(e){i.push(e),u()}}(addEventListener,removeEventListener);
+    </script><meta name="format-detection" content="telephone=no"><link title="Вакансии hh.ru" type="application/opensearchdescription+xml" rel="search" href="https://i.hh.ru/opensearch-v.xml"><link title="Резюме hh.ru" type="application/opensearchdescription+xml" rel="search" href="https://i.hh.ru/opensearch-r.xml"><link rel="apple-touch-icon" sizes="76x76" href="https://i.hh.ru/apple/hh/touch-icon-ipad.png"><link rel="apple-touch-icon" sizes="120x120" href="https://i.hh.ru/apple/hh/touch-icon-iphone-retina.png"><link rel="apple-touch-icon" sizes="152x152" href="https://i.hh.ru/apple/hh/touch-icon-ipad-retina.png"><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-square310x310logo" content="https://i.hh.ru/favicons/310x310.png"><meta name="msapplication-wide310x150logo" content="https://i.hh.ru/favicons/310x150.png"><meta name="msapplication-square150x150logo" content="https://i.hh.ru/favicons/150x150.png"><meta name="msapplication-square70x70logo" content="https://i.hh.ru/favicons/70x70.png"><meta name="msapplication-TileImage" content="https://i.hh.ru/favicons/144x144.png"><link rel="icon" href="https://i.hh.ru/favicons/hh.ico?v=2015_03_17"><link rel="stylesheet" href="https://i.hh.ru/css/globals/pages/__bloko-imports_1d4f5fa531723b0b8174e42b1e0d4c83.css"><link rel="stylesheet" href="https://i.hh.ru/css/globals/pages/__globals_86c21c457b05316d7554b33f8ebec341.css"><!--google-universal-analytics counter-->
+
+
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('set', 'allow_ad_personalization_signals', true);
+    gtag('set', 'link_attribution', true);
+            gtag('set', {
+                'custom_map': {
+                    'dimension1': 'user_type',
+                    'dimension6': 'client_id',
+                                'dimension7': 'session_id',
+                                'dimension8': 'browser_id',
+                }
+            });
+
+        gtag('config', 'UA-11659974-2', {
+            'user_type': 'anonymous',
+            'client_id': gtag('get', 'UA-11659974-2', 'client_id'),
+                'browser_id': 'UShftb2yAjn3gWAbBpQpBw--',
+                'session_id': '6e853393a15d9466b3c3f2fd7cc4f8933ec6a15c91ca8c488fb5d2ee74952f27',
+        });
+
+        gtag('config', 'G-44H5WGZ123', {
+            'user_type': 'anonymous',
+            'client_id': gtag('get', 'G-44H5WGZ123', 'client_id'),
+                'browser_id': 'UShftb2yAjn3gWAbBpQpBw--',
+                'session_id': '6e853393a15d9466b3c3f2fd7cc4f8933ec6a15c91ca8c488fb5d2ee74952f27',
+        });
+
+</script>
+
+<!--/google-universal-analytics counter--><script data-name="HHC/ServiceWorkerRegister" data-params=""></script><script crossorigin="anonymous" defer="" src="https://i.hh.ru/webpackBuild/runtime.f15c59acdb932cb6b6b9.js"></script><script crossorigin="anonymous" defer="" src="https://i.hh.ru/webpackBuild/vendors.040c630956f3eeec8afb.js"></script><script crossorigin="anonymous" defer="" src="https://i.hh.ru/webpackBuild/bloko.a93b539e22f0d64d966e.js"></script><script crossorigin="anonymous" defer="" src="https://i.hh.ru/webpackBuild/anonymousUser.f8d572ddf529fbf5a646.js"></script><script crossorigin="anonymous" defer="" src="https://i.hh.ru/webpackBuild/appEntryPoint.b57e0ff323a8b7359f76.js"></script><script crossorigin="anonymous" defer="" src="https://i.hh.ru/webpackBuild/vendors.lux.39437fa7bab3948faaf9.js"></script><link rel="canonical" href="https://togliatti.hh.ru/resume/8fb0c2c8ff0840b62c0039ed1f553571365742"><meta name="HandheldFriendly" content="True"><meta name="viewport" content="width=device-width, user-scalable=no"><!--fb-pixel counter-->
+
+
+<script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '320505611888753');
+    fbq('track', 'PageView');
+    fbq('trackCustom', 'userType', {user_type: 'anonymous'});
+</script>
+
+
+
+<script charset="utf-8" src="https://i.hh.ru/webpackBuild/vendors.lux.39437fa7bab3948faaf9.js"></script><script charset="utf-8" src="https://i.hh.ru/webpackBuild/524.1ece8db728380b871332.js"></script><style type="text/css">.vab_dialog {
+  font-family: 'Barlow', sans-serif;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 15%;
+  margin: auto;
+  z-index: 2147483647;
+  border-radius: 4px;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -ms-flex-pack: start;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  max-width: 580px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 22px 7px rgba(0, 0, 0, 0.78);
+          box-shadow: 0 0 22px 7px rgba(0, 0, 0, 0.78);
+  padding: 30px 0; }
+  .vab_dialog .vab_no_entry {
+    width: 40px;
+    height: 40px; }
+  .vab_dialog .are_you_sure {
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #718191;
+    margin: 0 85px; }
+  .vab_dialog .detected {
+    margin: 30px 85px 0 85px;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #718191; }
+  .vab_dialog .do_you_want {
+    font-size: 21px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #718191;
+    margin: 40px 85px 0 85px; }
+  .vab_dialog .opt_out_msg {
+    margin: 20px 50px 0 50px;
+    font-size: 21px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #718191; }
+  .vab_dialog .vab_buttons {
+    margin-top: 50px;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+            align-items: center; }
+    .vab_dialog .vab_buttons .vab_button {
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      padding: 16px 24px;
+      border-radius: 5px;
+      display: -ms-flexbox;
+      display: -webkit-box;
+      display: flex;
+      -ms-flex-pack: center;
+      -webkit-box-pack: center;
+              justify-content: center;
+      -ms-flex-align: center;
+      -webkit-box-align: center;
+              align-items: center; }
+      .vab_dialog .vab_buttons .vab_button.cancel {
+        border: solid 1px #718191;
+        color: #718191;
+        margin-right: 20px; }
+      .vab_dialog .vab_buttons .vab_button.exit {
+        color: #f55a2e;
+        border: solid 1px #f55a2e;
+        margin-right: 20px; }
+      .vab_dialog .vab_buttons .vab_button.continue {
+        background-color: #8a95ff;
+        color: #ffffff; }
+</style><style type="text/css">.rprogress-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2147483647;
+    width: 100%;
+    height: 0;
+    pointer-events: none;
+}
+
+.rprogress-overlay_active {
+    display: block;
+}
+</style><style type="text/css">.rprogress {
+    position: relative;
+    z-index: 2147483647;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    transition: all 400ms linear;
+    border-radius: 1px;
+    pointer-events: none;
+    background-color: #b91f1f;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: width;
+}
+
+
+.rprogress_cycle {
+    width: 25%;
+    left: -25%;
+    -webkit-animation: animate 3s ease;
+            animation: animate 3s ease;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    will-change: left;
+}
+
+@-webkit-keyframes animate {
+    0% {
+        left: -25%;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+@keyframes animate {
+    0% {
+        left: -25%;
+    }
+    100% {
+        left: 100%;
+    }
+}</style><script charset="utf-8" src="https://i.hh.ru/webpackBuild/obfuscate.babcded63260e46dc5cb.js"></script>
+<script charset="utf-8" src="https://i.hh.ru/webpackBuild/22.b6d9edc6fc91d7bc405a.js"></script>
+<script charset="utf-8" src="https://i.hh.ru/webpackBuild/44.627d1d0e9f8aefc4f19f.js"></script>
+<script charset="utf-8" src="https://i.hh.ru/webpackBuild/42.42f2498219a55821caf8.js"></script>
+<script charset="utf-8" src="https://i.hh.ru/webpackBuild/55.e7b8855df9e0b7f82540.js"></script>
+<script charset="utf-8" src="https://i.hh.ru/webpackBuild/149.ba09a9862cd93109ea10.js"></script>
+<title>Резюме Junior программист Python/C++/C#</title><meta name="robots" content="noindex">
+</head>
+<body class=" s-friendly xs-friendly custom-font-allowed">
+    <div id="HH-React-Root"><div data-qa="lux-container lux-container-rendered"><div class="bloko-columns-wrapper"><div class="bloko-columns-row"><div class="bloko-column bloko-column_container bloko-column_xs-4 bloko-column_s-8 bloko-column_m-12 bloko-column_l-16"><div class="resume-applicant"><div class="bloko-column bloko-column_xs-4 bloko-column_s-8 bloko-column_m-10 bloko-column_l-12"></div><div class="bloko-columns-row"><div class="bloko-column bloko-column_container bloko-column_xs-4 bloko-column_s-8 bloko-column_m-12 bloko-column_l-16"><div class="bloko-columns-row"><div class="bloko-column bloko-column_container bloko-column_xs-4 bloko-column_s-8 bloko-column_m-12 bloko-column_l-16"><div class="resume-header-wrapper"><div class="resume-header"><div class="bloko-column bloko-column_xs-4 bloko-column_s-8 bloko-column_m-9 bloko-column_l-12"><div class="bloko-gap bloko-gap_bottom"><div class="resume-header-main"><div class="resume-header-title"><div class="resume-header-name"><h2 data-qa="resume-personal-name" class="bloko-header-1"><span>Хохлов Богданъ Александрович</span></h2></div><p><span data-qa="resume-personal-gender">Мужчина</span>, <span data-qa="resume-personal-age">18<!-- -->&nbsp;<!-- -->лет</span>, <!-- -->родился<!-- -->&nbsp;<span data-qa="resume-personal-birthday">10&nbsp;июля&nbsp;2002</span></p><div class="resume-header-field"><div data-qa="resume-block-contacts"><p class="resume-contacts-title">Контакты</p><div class="resume-search-item__description-content" data-qa="resume-serp_resume-item-content"><div data-qa="resume-contacts-phone"><span>+7 (903) 388-73-37</span><div class="bloko-translate-guard"></div></div></div><div data-qa="resume-contact-email"><a href="mailto:bogxoxl39@gmail.com" data-qa="resume-contact-preferred"><span>bogxoxl39@gmail.com</span></a>&nbsp;— <!-- -->предпочитаемый способ связи</div><div class="" data-qa="resume-personalsite-personal"><a target="_blank" rel="noopener noreferrer" href="https://github.com/BogdanXoxl/">https://github.com/BogdanXoxl/</a></div></div></div><p><span data-qa="resume-personal-address">Казань</span>, <span data-qa="resume-personal-metro" style="color:#CD0505">м.<!-- -->&nbsp;<!-- -->Козья слобода</span>, <!-- -->готов к переезду<!-- --> (Китай, Испания, США, Германия)<!-- -->, <!-- -->готов к командировкам</p><p></p></div><div class="resume-header-photo-desktop" data-qa="resume-photo-desktop"></div></div></div></div><div class="resume-header-additional"></div></div></div></div></div></div></div><div class="resume-wrapper"><div class="bloko-columns-row"><div class="bloko-column bloko-column_container bloko-column_xs-4 bloko-column_s-8 bloko-column_m-9 bloko-column_l-12"><div class="bloko-gap bloko-gap_top"><div data-qa="resume-block-position" class="resume-block"><div class="bloko-columns-row"><div class="bloko-column bloko-column_xs-4 bloko-column_s-5 bloko-column_m-6 bloko-column_l-9"><h1 data-qa="bloko-header-2" class="bloko-header-2"><span class="resume-block__title-text" data-qa="resume-block-title-position"><span>Junior программист Python/C++/C#</span></span></h1></div><div class="bloko-column bloko-column_xs-4 bloko-column_s-3 bloko-column_m-3 bloko-column_l-3"><div class="resume-block-container"></div></div></div><div class="resume-block-item-gap"><div class="bloko-columns-row"><div class="bloko-column bloko-column_xs-4 bloko-column_s-8 bloko-column_m-9 bloko-column_l-12"><div class="resume-block-container"><div class="bloko-gap bloko-gap_bottom"><span data-qa="resume-block-specialization-category">Информационные технологии, интернет, телеком</span><ul><li class="resume-block__specialization" data-qa="resume-block-position-specialization">Программирование, Разработка</li></ul></div><p>Занятость: <!-- -->проектная работа, стажировка, частичная занятость, полная занятость</p><p>График работы: <!-- -->удаленная работа, гибкий график, полный день, сменный график</p></div></div></div></div></div><div data-qa="resume-block-experience" class="resume-block"><div class="bloko-columns-row"><div class="bloko-column bloko-column_xs-4 bloko-column_s-8 bloko-column_m-9 bloko-column_l-12"><h2 data-qa="bloko-header-2" class="bloko-header-2 bloko-header-2_lite"><span class="resume-block__title-text resume-block__title-text_sub">Опыт работы <!-- -->4<!-- -->&nbsp;<!-- -->месяца</span></h2></div></div><div class="resume-block-item-gap"><div class="bloko-columns-row"><div class="resume-block-item-gap"><div class="bloko-columns-row"><div class="bloko-column bloko-column_xs-4 bloko-column_s-2 bloko-column_m-2 bloko-column_l-2">Май<!-- -->&nbsp;<!-- -->2019<!-- --> — <span class="resume-block__experience-mount-last">Август</span>&nbsp;<!-- -->2019<div class="bloko-text-tertiary">4<!-- -->&nbsp;<!-- -->месяца</div></div><div class="bloko-column bloko-column_xs-4 bloko-column_s-6 bloko-column_m-7 bloko-column_l-10"><div class="resume-block-container"><div class="bloko-text-emphasis"><span>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "КАЗАНЬ-КУРЬЕР"</span></div><p>Казань</p><div class="resume-block__experience-industries resume-block_no-print"><p><span>Перевозки, логистика, склад, ВЭД</span></p></div><div data-qa="resume-block-experience-position" class="bloko-text-emphasis"><span>Системный администратор</span></div><div data-qa="resume-block-experience-description"><span>Написание приложений, сервисов под Windows, Linux;<br>Поддержка и развитие существующих проектов;<br>Разработка скриптов по автоматизации стандартных/ручных операций;</span></div></div></div></div></div></div></div></div><div id="key-skills"></div><div data-qa="skills-table" class="resume-block"><div class="bloko-columns-row"><div class="bloko-column bloko-column_xs-4 bloko-column_s-8 bloko-column_m-9 bloko-column_l-12"><div class="resume-block-container"><h2 data-qa="bloko-header-2" class="bloko-header-2 bloko-header-2_lite"><span class="resume-block__title-text resume-block__title-text_sub">Ключевые навыки</span></h2></div></div></div><div class="resume-block-item-gap"><div class="bloko-columns-row"><div class="bloko-column bloko-column_xs-4 bloko-column_s-8 bloko-column_m-9 bloko-column_l-12"><div class="resume-block-container"><div class="bloko-tag-list"><div><div class="bloko-tag bloko-tag_inline bloko-tag_countable" data-qa="bloko-tag bloko-tag_inline"><span class="bloko-tag__section bloko-tag__section_text" data-qa="bloko-tag__text"><span>C/C++</span></span><div class="bloko-tag__section bloko-tag__section_count" data-qa="bloko-tag__count">1</div><button type="button" class="bloko-tag-button bloko-tag-button_increase" data-qa="bloko-tag__increase"><span class="bloko-icon-dynamic"><span class="bloko-icon bloko-icon_plus bloko-icon_initial-inverted"></span></span></button></div><div class="bloko-tag bloko-tag_inline bloko-tag_countable" data-qa="bloko-tag bloko-tag_inline"><span class="bloko-tag__section bloko-tag__section_text" data-qa="bloko-tag__text"><span>Qt</span></span><div class="bloko-tag__section bloko-tag__section_count" data-qa="bloko-tag__count">1</div><button type="button" class="bloko-tag-button bloko-tag-button_increase" data-qa="bloko-tag__increase"><span class="bloko-icon-dynamic"><span class="bloko-icon bloko-icon_plus bloko-icon_initial-inverted"></span></span></button></div><div class="bloko-tag bloko-tag_inline bloko-tag_countable" data-qa="bloko-tag bloko-tag_inline"><span class="bloko-tag__section bloko-tag__section_text" data-qa="bloko-tag__text"><span>Python</span></span><div class="bloko-tag__section bloko-tag__section_count" data-qa="bloko-tag__count">1</div><button type="button" class="bloko-tag-button bloko-tag-button_increase" data-qa="bloko-tag__increase"><span class="bloko-icon-dynamic"><span class="bloko-icon bloko-icon_plus bloko-icon_initial-inverted"></span></span></button></div><div class="bloko-tag bloko-tag_inline bloko-tag_countable" data-qa="bloko-tag bloko-tag_inline"><span class="bloko-tag__section bloko-tag__section_text" data-qa="bloko-tag__text"><span>Git</span></span><div class="bloko-tag__section bloko-tag__section_count" data-qa="bloko-tag__count">1</div><button type="button" class="bloko-tag-button bloko-tag-button_increase" data-qa="bloko-tag__increase"><span class="bloko-icon-dynamic"><span class="bloko-icon bloko-icon_plus bloko-icon_initial-inverted"></span></span></button></div><div class="bloko-tag bloko-tag_inline bloko-tag_countable" data-qa="bloko-tag bloko-tag_inline"><span class="bloko-tag__section bloko-tag__section_text" data-qa="bloko-tag__text"><span>ООП</span></span><div class="bloko-tag__section bloko-tag__section_count" data-qa="bloko-tag__count">1</div><button type="button" class="bloko-tag-button bloko-tag-button_increase" data-qa="bloko-tag__increase"><span class="bloko-icon-dynamic"><span class="bloko-icon bloko-icon_plus bloko-icon_initial-inverted"></span></span></button></div><div class="bloko-tag bloko-tag_inline bloko-tag_countable" data-qa="bloko-tag bloko-tag_inline"><span class="bloko-tag__section bloko-tag__section_text" data-qa="bloko-tag__text"><span>Django Framework</span></span><button type="button" class="bloko-tag-button bloko-tag-button_increase" data-qa="bloko-tag__increase"><span class="bloko-icon-dynamic"><span class="bloko-icon bloko-icon_plus bloko-icon_initial-inverted"></span></span></button></div><div class="bloko-tag bloko-tag_inline bloko-tag_countable" data-qa="bloko-tag bloko-tag_inline"><span class="bloko-tag__section bloko-tag__section_text" data-qa="bloko-tag__text"><span>REST</span></span><button type="button" class="bloko-tag-button bloko-tag-button_increase" data-qa="bloko-tag__increase"><span class="bloko-icon-dynamic"><span class="bloko-icon bloko-icon_plus bloko-icon_initial-inverted"></span></span></button></div><div class="bloko-tag bloko-tag_inline bloko-tag_countable" data-qa="bloko-tag bloko-tag_inline"><span class="bloko-tag__section bloko-tag__section_text" data-qa="bloko-tag__text"><span>C#</span></span><button type="button" class="bloko-tag-button bloko-tag-button_increase" data-qa="bloko-tag__increase"><span class="bloko-icon-dynamic"><span class="bloko-icon bloko-icon_plus bloko-icon_initial-inverted"></span></span></button></div><div class="bloko-tag bloko-tag_inline bloko-tag_countable" data-qa="bloko-tag bloko-tag_inline"><span class="bloko-tag__section bloko-tag__section_text" data-qa="bloko-tag__text"><span>MVC</span></span><button type="button" class="bloko-tag-button bloko-tag-button_increase" data-qa="bloko-tag__increase"><span class="bloko-icon-dynamic"><span class="bloko-icon bloko-icon_plus bloko-icon_initial-inverted"></span></span></button></div><div class="bloko-tag bloko-tag_inline bloko-tag_countable" data-qa="bloko-tag bloko-tag_inline"><span class="bloko-tag__section bloko-tag__section_text" data-qa="bloko-tag__text"><span>STL</span></span><button type="button" class="bloko-tag-button bloko-tag-button_increase" data-qa="bloko-tag__increase"><span class="bloko-icon-dynamic"><span class="bloko-icon bloko-icon_plus bloko-icon_initial-inverted"></span></span></button></div><div class="bloko-tag bloko-tag_inline bloko-tag_countable" data-qa="bloko-tag bloko-tag_inline"><span class="bloko-tag__section bloko-tag__section_text" data-qa="bloko-tag__text"><span>TCP/IP</span></span><button type="button" class="bloko-tag-button bloko-tag-button_increase" data-qa="bloko-tag__increase"><span class="bloko-icon-dynamic"><span class="bloko-icon bloko-icon_plus bloko-icon_initial-inverted"></span></span></button></div><div class="bloko-tag bloko-tag_inline bloko-tag_countable" data-qa="bloko-tag bloko-tag_inline"><span class="bloko-tag__section bloko-tag__section_text" data-qa="bloko-tag__text"><span>SQL</span></span><button type="button" class="bloko-tag-button bloko-tag-button_increase" data-qa="bloko-tag__increase"><span class="bloko-icon-dynamic"><span class="bloko-icon bloko-icon_plus bloko-icon_initial-inverted"></span></span></button></div></div></div></div></div></div></div></div><div data-qa="resume-block-skills" class="resume-block"><div class="bloko-columns-row"><div class="bloko-column bloko-column_xs-4 bloko-column_s-8 bloko-column_m-9 bloko-column_l-12"><div class="resume-block-container"><h2 data-qa="bloko-header-2" class="bloko-header-2 bloko-header-2_lite"><span class="resume-block__title-text resume-block__title-text_sub">Обо мне</span></h2></div></div></div><div class="resume-block-item-gap"><div class="bloko-columns-row"><div class="bloko-column bloko-column_xs-4 bloko-column_s-8 bloko-column_m-9 bloko-column_l-12"><div class="resume-block-container" data-qa="resume-block-skills-content"><span>Пунктуальный, трудолюбивый, люблю развиваться, быстро обучаюсь и выполняю поставленные задачи.</span></div></div></div></div></div><div data-qa="resume-block-education" class="resume-block"><div class="bloko-columns-row"><div class="bloko-column bloko-column_xs-4 bloko-column_s-8 bloko-column_m-9 bloko-column_l-12"><div class="resume-block-container"><h2 data-qa="bloko-header-2" class="bloko-header-2 bloko-header-2_lite"><span class="resume-block__title-text resume-block__title-text_sub">Среднее специальное образование</span></h2></div></div></div><div class="resume-block-item-gap"><div class="bloko-columns-row"><div class="resume-block-item-gap"><div class="bloko-columns-row"><div class="bloko-column bloko-column_xs-4 bloko-column_s-2 bloko-column_m-2 bloko-column_l-2">2022</div><div class="bloko-column bloko-column_xs-4 bloko-column_s-6 bloko-column_m-7 bloko-column_l-10"><div class="resume-block-container" data-qa="resume-block-education-item"><div data-qa="resume-block-education-name" class="bloko-text-emphasis"><a class="bloko-link bloko-link_list" href="/search/resume?university=42853"><span>Казанский национальный исследовательский технический университет им. А.Н. Туполева, Казань</span></a></div><div data-qa="resume-block-education-organization"><!-- --><!-- --><span>ИКТЗИ</span><span>, </span><span>09.02.03 программирование в компьютерных системах</span></div></div></div></div></div></div></div></div><div data-qa="resume-block-languages" class="resume-block"><div class="bloko-columns-row"><div class="bloko-column bloko-column_xs-4 bloko-column_s-8 bloko-column_m-9 bloko-column_l-12"><div class="resume-block-container"><h2 data-qa="bloko-header-2" class="bloko-header-2 bloko-header-2_lite"><span class="resume-block__title-text resume-block__title-text_sub">Знание языков</span></h2></div></div></div><div class="resume-block-item-gap"><div class="bloko-columns-row"><div class="bloko-column bloko-column_xs-4 bloko-column_s-8 bloko-column_m-9 bloko-column_l-12"><div class="resume-block-container"><p data-qa="resume-block-language-item">Русский<!-- --> — <!-- -->Родной</p><p data-qa="resume-block-language-item">Английский<!-- --> — <!-- -->A2 — Элементарный</p><p data-qa="resume-block-language-item">Испанский<!-- --> — <!-- -->A2 — Элементарный</p><p data-qa="resume-block-language-item">Китайский<!-- --> — <!-- -->A1 — Начальный</p></div></div></div></div></div><div data-qa="resume-block-additional" class="resume-block"><div class="bloko-columns-row"><div class="bloko-column bloko-column_xs-4 bloko-column_s-8 bloko-column_m-9 bloko-column_l-12"><div class="resume-block-container"><h2 data-qa="bloko-header-2" class="bloko-header-2 bloko-header-2_lite"><span class="resume-block__title-text resume-block__title-text_sub">Гражданство, время в пути до работы</span></h2></div></div></div><div class="resume-block-item-gap"><div class="bloko-columns-row"><div class="bloko-column bloko-column_xs-4 bloko-column_s-8 bloko-column_m-9 bloko-column_l-12"><div class="resume-block-container"><p>Гражданство<!-- -->: <!-- -->Россия</p><p>Разрешение на работу<!-- -->: <!-- -->Россия</p><p>Желательное время в пути до работы<!-- -->: <span class="resume-block-travel-time">Не имеет значения</span></p></div></div></div></div></div></div><div class="bloko-column bloko-column_xs-4 bloko-column_s-8 bloko-column_m-9 bloko-column_l-12" data-qa="similar-resumes-block"><div class="resume-block resume-block_no-print">
+
+
+</body>
+</html>
